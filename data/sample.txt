@@ -1,0 +1,14 @@
+Tokenization is one of the first steps in Natural Language Processing (NLP) where we break down text into smaller units or "tokens." These tokens can be words, punctuation marks or special characters making it easier for algorithms to process and analyze the text. SpaCy is one of the most widely used libraries for NLP tasks which provides an efficient way to perform tokenization.
+
+Let's consider a sentence: "I love natural language processing!"
+
+After tokenization: ["I", "love", "natural", "language", "processing", "!"]
+
+This breakdown helps us understand the individual components of the text, making it easier for algorithms to process. Tokenization is important for further tasks like text classification, sentiment analysis and more.
+
+Key Features of SpaCy Tokenizer
+Efficient Tokenization: SpaCy’s tokenizer is built for speed and efficiency, capable of handling large volumes of text quickly without compromising accuracy.
+Handles Punctuation: Unlike many basic tokenizers, it treats punctuation marks as separate tokens which is important for tasks like sentence segmentation and parsing.
+Language-Specific Tokenization: It's tokenization is adjusted for different languages, taking into account language-specific rules like contractions, abbreviations and compound words.
+Whitespace and Special Character Handling: The tokenizer properly manages spaces, newlines and special characters, ensuring that tokens like URLs, hashtags and email addresses are correctly identified.
+Customizable: It allows us to customize the tokenizer by adding special rules for tokenization, giving us more control over how the text is split into tokens.
